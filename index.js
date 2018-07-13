@@ -23,3 +23,4 @@ function destructivelyDeleteFromDriverByKey (driver, key){
  let newdriver = driver
  delete newdriver [key]
  return newdriver
+}
